@@ -1,7 +1,7 @@
 
 
 window.addEventListener('scroll', function() {
-    if(window.innerWidth > 450) {
+    if(window.innerWidth > 499) {
         if(this.window.pageYOffset > 750) {
             this.document.getElementById('sticky-nav').style.opacity = '1';
         } else {
