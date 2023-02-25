@@ -23,7 +23,7 @@ hr {
 }
 
 #header {
-    background-image: url(imgs/Laundromat-Store-layout-.jpeg);
+    background-image: url(/imgs/Laundromat-Store-layout-.jpeg);
     height: 100vh;
     background-size: cover;
     padding-bottom: 100px;
@@ -242,9 +242,11 @@ footer img {
     width: 100px;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     nav {
         background: linear-gradient(to top, rgba(0, 0, 0 , 0), rgba(0, 0, 0, .8));
+        display: flex;
+        justify-content: center;
     }
 
     nav a {
@@ -283,14 +285,11 @@ footer img {
     }
 
     #ham {
-        display: block;
         height: 50px;
-        margin: 0px 0px 0px 10px;
-        padding-top: 10px;
-    }
-
-    #logo {
-        display: none;
+        float: right;
+        display: block;
+        padding: 10px 10px 10px 100%;
+        background: linear-gradient(to top, rgba(0, 0, 0, .8), black);
     }
 
     #animation {
@@ -303,10 +302,9 @@ footer img {
     }
 
     #header {
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         padding-bottom: 0px;
-        height: 300px;
     }
 
     #section-2 {
@@ -319,6 +317,7 @@ footer img {
         position: relative;
         padding: 50px 0px;
         font-size: 12px;
+        border: 1px solid;
     }
 
     .icon {
